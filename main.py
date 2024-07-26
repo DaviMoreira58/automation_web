@@ -28,3 +28,12 @@ pyautogui.press('tab')
 pyautogui.press('enter')
 time.sleep(3)
 
+
+
+codigo = str(tabela.loc[linha, 'codigo'])
+marca = str(tabela.loc[linha, 'marca'])
+tipo = str(tabela.loc[linha, 'tipo'])
+categoria = str(tabela.loc[linha, 'categoria'])
+preco_unitario = str(tabela.loc[linha, 'preco_unitario'])
+custo = str(tabela.loc[linha, 'custo'])
+obs = str(tabela.loc[linha, 'obs'])
