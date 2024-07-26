@@ -8,6 +8,8 @@ pyautogui.PAUSE = 0.5
 source = os.path.abspath('.')
 path = os.path.join(source, 'produtos.csv')
 
+tabela = pandas.read_csv(path)
+
 pyautogui.press("win")
 pyautogui.write('chrome')
 pyautogui.press('enter')
