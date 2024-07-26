@@ -6,5 +6,9 @@ biblioteca que vamos usar para automatizar sera a pyautogui [pyautogui](https://
 essa lib vai servir para fazer a automacao em primeiro plano.
 
 
-https://github.com/user-attachments/assets/db193185-3cd6-4215-926a-4b1e7bf056d3
+video demonstrativo:
+
+https://github.com/user-attachments/assets/3075ae13-12d9-451f-a0ac-fea707871edd
+
+
 
