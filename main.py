@@ -20,12 +20,12 @@ pyautogui.press('enter')
 
 
 time.sleep(3)
-pyautogui.click(x=956, y=372)
+pyautogui.click(x=855, y=404)
 pyautogui.hotkey('crtl' + 'a')
 pyautogui.write('email@gmail.com')
 pyautogui.press('tab')
 pyautogui.hotkey('crtl' + 'a')
-pyautogui.write('senha')
+pyautogui.write('dsa$@#$ad3421ASdas')
 pyautogui.press('tab')
 pyautogui.press('enter')
 time.sleep(3)
@@ -33,7 +33,7 @@ time.sleep(3)
 
 
 for linha in tabela.index:
-    pyautogui.click(x=937, y=260)
+    pyautogui.click(x=887, y=292)
     codigo = str(tabela.loc[linha, 'codigo'])
     pyautogui.write(codigo)
     pyautogui.press('tab')
