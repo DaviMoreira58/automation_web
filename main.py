@@ -20,7 +20,7 @@ pyautogui.press('enter')
 
 
 time.sleep(3)
-pyautogui.click(x=855, y=404)
+pyautogui.click(x=983, y=442)
 pyautogui.hotkey('crtl' + 'a')
 pyautogui.write('email@gmail.com')
 pyautogui.press('tab')
