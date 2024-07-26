@@ -14,7 +14,7 @@ pyautogui.press("win")
 pyautogui.write('chrome')
 pyautogui.press('enter')
 time.sleep(1)
-pyautogui.click(x=932, y=57)
+pyautogui.click(x=531, y=59)
 pyautogui.write('https://dlp.hashtagtreinamentos.com/python/intensivao/login')
 pyautogui.press('enter')
 
